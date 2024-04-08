@@ -10,7 +10,7 @@ def cmd2(str):
     return cmd1(str).split()
 
 setup(name = "mecab-python",
-	version = cmd1("mecab-config --version"),
+	version = "0.9.2",
 	py_modules=["MeCab"],
 	ext_modules = [
 		Extension("_MeCab",
